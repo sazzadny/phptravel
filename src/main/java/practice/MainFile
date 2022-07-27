@@ -1,0 +1,138 @@
+//        LearnVariables objVariable = new LearnVariables();
+//        objVariable.integerVariables();
+//        objVariable.booleanVariable();
+//        objVariable.charVariable();
+//        objVariable.floatVariable();
+//        objVariable.stringVariable();
+//        int sumValue = objVariable.addNumbers(7,9);
+//        System.out.println(sumValue);
+//        int value = returnInt();
+//        System.out.println(value);
+//        LearnWhileLoop wloop = new LearnWhileLoop();
+//        wloop.whileLoop();
+//        wloop.whileLoop2();
+//        LearnForLoop fLoop = new LearnForLoop();
+//        fLoop.forLoop();
+//        fLoop.forLoop2();
+//        LearnDoWhileLoop dhLoop = new LearnDoWhileLoop();
+//        dhLoop.doWhileLoop();
+//        dhLoop.doWhileLoop2();
+//        ConditionalStatementsIfElse conditionalStatements = new ConditionalStatementsIfElse();
+//        conditionalStatements.learnIfStatements(7);
+//        conditionalStatements.ifElseStatement(21);
+//        LearnSwitchStatement switchStatement = new LearnSwitchStatement();
+//        switchStatement.switchStatement('N');
+//        conditionalStatements.printGrade('C');
+//        ConditionalOperator condiOperator = new ConditionalOperator();
+//        condiOperator.conditionalOperator();
+          LearnArray array = new LearnArray();
+          array.stringArray();
+          ListArray listArray = new ListArray();
+          listArray.listArray();
+          ConvertArrayToList convertArrayToList = new ConvertArrayToList();
+          convertArrayToList.convertArrayToList();
+          convertArrayToList.convertListToArray();
+          LearnStringMethods methods = new LearnStringMethods();
+          methods.learnTrim();
+          methods.learnCharAt();
+          methods.learnFormat();
+          methods.learnContains();
+          methods.learnSplitMethod();
+          LearnJavaMath math = new LearnJavaMath();
+          math.learnRandomize();
+          math.learnRound();
+          math.learnMax();
+          LearnDate dateTime = new LearnDate();
+          dateTime.captureDate();
+          LearnHashMap hashMap = new LearnHashMap();
+          hashMap.addHashMapValue();
+          hashMap.hashMApProblem();
+          ReadValueFromTerminal input = new ReadValueFromTerminal();
+          input.getUserInput();
+          Constructor
+          MyClass myClass = new MyClass(5);
+          System.out.println("Value of x is " + myClass.x);
+          Account account = new Account(2,5);
+          account.showData2();
+          ------------------------------------------------
+          Static:
+          ------------------------------------------------
+          Student s1 = new Student();
+          s1.showData();
+          Student s2 = new Student();
+          s2.showData();
+          Student.b++;
+          s1.showData()
+          Student.increment();
+
+          Exception:
+          LearnExceptions exceptions = new LearnExceptions();
+                 exceptions.testExceptions();
+                 exceptions.addArrayNumbers();
+                 exceptions.subtractArrayNumbers();
+                 exceptions.multiplyArrayNumbers();
+
+          Enum:
+          String dayName = "TUESDAY";
+          LearnEnum eum = new LearnEnum(Day.valueOf(dayName));
+          eum.daiIsLike();
+
+          Recursion:
+          LearnRecursion recursion = new LearnRecursion();
+          int result = recursion.sum(2);
+          System.out.println(result;
+          recursion.printNumbers(1);
+
+          -----------------------------------------------------------
+          Inheritance
+          ------------------------------------------------------------
+          Bicycle bicycle = new Bicycle(4,30);
+                  bicycle.applyBreak(10);
+                  bicycle.showData();
+                  bicycle.speedUp(5);
+                  bicycle.showData();
+
+                  MountainBike mb = new MountainBike(4,30,15);
+                  mb.showData();
+                  mb.applyBreak(5);
+
+                  mb.showInformation();
+
+                  Sum sum = new Sum();
+                          double h = sum.addNumbers(1.23,4.78);
+                          System.out.println(h);
+
+          Encapsulate encapsulate = new Encapsulate();
+
+                  //encapsulate.setGeekName("Sazzad");
+                  //encapsulate.setGeekRoll(129);
+                 //encapsulate.setGeekAge(40);
+
+                  System.out.println(encapsulate.getGeekName());
+                  System.out.println(encapsulate.getGeekRoll());
+                  System.out.println(encapsulate.getGeekAge());
+
+          Pig class for Abstract class::::::
+
+          package practice;
+
+          public class Pig extends Animal{
+              public void animalSound(){
+                  System.out.println("the pig says : wee wee" );
+
+              }
+          }
+          ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+          Pig class for Interface::::
+
+          package practice;
+
+          public class Pig implements LearnInterface{
+
+              public void animalSound() {
+                  System.out.println("testing sound");
+              }
+              public void run(){
+                  System.out.println("running");
+              }
+          }
